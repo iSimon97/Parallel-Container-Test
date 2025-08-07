@@ -1,0 +1,25 @@
+{
+  "name": "parallel-container-test",
+  "version": "1.0.0",
+  "description": "AdonisJS 6 project",
+  "main": "server.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adonisjs/assembler": "^7.8.2",
+    "@adonisjs/core": "^6.19.0",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@adonisjs/tsconfig": "^1.4.1",
+    "ts-node": "^10.9.2"
+  }
+}
