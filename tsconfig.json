@@ -1,0 +1,10 @@
+{
+  "extends": "@adonisjs/tsconfig/app.json",
+  "compilerOptions": {
+    "outDir": "./build",
+    "types": [
+      "@adonisjs/core",
+      "@adonisjs/assembler"
+    ]
+  }
+}
